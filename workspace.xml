@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="hotel:Web exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0b2474a5-da64-47f5-b4a3-d2af9a7b354b" name="Changes" comment="comit 21/12 23 59">
+      <change afterPath="$PROJECT_DIR$/resources/translations.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/translations_ru_RU.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/AuthorizationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/CharsetFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/LoggingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/UnsafeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mapper/CreateOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mapper/UserInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/LocaleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/MainPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/OrderDoneServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/RoomServletFindAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/UrlPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/mainpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/orderdone.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/RoomDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/RoomDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/UserInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/UserInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/OrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/OrderDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/RoleDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/RoleDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/RoomDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/RoomDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/UserInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/UserInfoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Enum/ConditionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Enum/ConditionEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Enum/RoleEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Enum/RoleEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Enum/RoomStatusEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/RoomStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/RoomStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mapper/CreateUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapper/CreateUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/RoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/CategoryRoomServlet/CategoryRoomServletFindById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/CategoryRoomServlet/CategoryRoomServletFindById.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/OrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/OrderServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/RegistrationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/RegistrationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/RoomServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/RoomServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/RoomServlet/RoomServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/RoomServlet/RoomServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/UserInfoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/UserInfoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/LocalDateFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/LocalDateFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/validator/CreateUserValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/validator/CreateUserValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/roombyid.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/roombyid.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/roomfindall.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/roomfindall.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/rooms.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/rooms.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IY68fdLJGoFsqk4JyI4a0jBSxD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/hotel&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Tomcat 10.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.27" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="hotel:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="23d9d1a9-5327-491d-9a63-638465749ae0" />
+        <option name="HTTP_PORT" value="8082" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63012" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="hotel:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b2474a5-da64-47f5-b4a3-d2af9a7b354b" name="Changes" comment="" />
+      <created>1670346013611</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670346013611</updated>
+      <workItem from="1670346015233" duration="4502000" />
+      <workItem from="1670350557147" duration="2615000" />
+      <workItem from="1670353185291" duration="4399000" />
+      <workItem from="1670357609763" duration="2439000" />
+      <workItem from="1670434978593" duration="4957000" />
+      <workItem from="1670659388951" duration="2328000" />
+      <workItem from="1670663406380" duration="3530000" />
+      <workItem from="1670746816844" duration="40413000" />
+      <workItem from="1670796645483" duration="11000" />
+      <workItem from="1670796681785" duration="35000" />
+      <workItem from="1670866136946" duration="9730000" />
+      <workItem from="1670876178996" duration="1113000" />
+      <workItem from="1670947594477" duration="533000" />
+      <workItem from="1670948147377" duration="51000" />
+      <workItem from="1670948219570" duration="5662000" />
+      <workItem from="1671036355451" duration="7146000" />
+      <workItem from="1671124561874" duration="6878000" />
+      <workItem from="1671177775112" duration="420000" />
+      <workItem from="1671214213435" duration="9986000" />
+      <workItem from="1671224267738" duration="1449000" />
+      <workItem from="1671225743982" duration="376000" />
+      <workItem from="1671263852827" duration="4498000" />
+      <workItem from="1671471784399" duration="14489000" />
+      <workItem from="1671487171490" duration="50000" />
+      <workItem from="1671509431264" duration="904000" />
+      <workItem from="1671555452925" duration="10545000" />
+      <workItem from="1671644529874" duration="9752000" />
+      <workItem from="1671732228160" duration="9148000" />
+      <workItem from="1671777918498" duration="125000" />
+      <workItem from="1671827302682" duration="8198000" />
+      <workItem from="1671835539662" duration="252000" />
+      <workItem from="1671998185453" duration="635000" />
+      <workItem from="1672042045854" duration="124000" />
+      <workItem from="1672052496271" duration="37000" />
+      <workItem from="1672069772696" duration="14745000" />
+    </task>
+    <task id="LOCAL-00001" summary="order example">
+      <created>1670951561894</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670951561894</updated>
+    </task>
+    <task id="LOCAL-00002" summary="order example 21 49">
+      <created>1670957396624</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670957396624</updated>
+    </task>
+    <task id="LOCAL-00003" summary="comit 14/12 22 58">
+      <created>1671047931538</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671047931538</updated>
+    </task>
+    <task id="LOCAL-00004" summary="comit 19/12 20 49">
+      <created>1671472215661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671472215661</updated>
+    </task>
+    <task id="LOCAL-00005" summary="comit 19/12 23 26">
+      <created>1671481610080</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671481610080</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="order example" />
+    <MESSAGE value="order example 21 49" />
+    <MESSAGE value="comit 14/12 22 58" />
+    <MESSAGE value="comit 19/12 20 49" />
+    <MESSAGE value="comit 19/12 23 26" />
+    <MESSAGE value="comit 21/12 23 59" />
+    <option name="LAST_COMMIT_MESSAGE" value="comit 21/12 23 59" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/servlet/CategoryRoomServlet/CategoryRoomServletSave.java</url>
+          <line>15</line>
+          <properties class="servlet.CategoryRoomServlet.CategoryRoomServletSave">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/servlet/OrderServlet.java</url>
+          <line>50</line>
+          <properties class="servlet.OrderServlet">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/servlet/RoomServlet/RoomServlet.java</url>
+          <line>20</line>
+          <properties class="servlet.RoomServlet.RoomServlet" method="doGet">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/servlet/UserInfoServlet.java</url>
+          <line>14</line>
+          <properties class="servlet.UserInfoServlet" method="doGet">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/servlet/OrderServlet.java</url>
+          <line>70</line>
+          <properties class="servlet.OrderServlet" method="doPost">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/dto/UserInfoDto.java</url>
+          <line>17</line>
+          <properties field="password" class="dto.UserInfoDto" />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
